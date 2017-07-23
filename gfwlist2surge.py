@@ -13,7 +13,7 @@ __mtime__ = "2017/7/22"
 curr_user = getpass.getuser()
 
 gfwlist_url = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
-gfwlist_file = "gfwlist.txt"
+gfwlist_file = "/tmp/gfwlist.txt"
 
 surge_conf_path = f"/Users/{curr_user}/Library/Mobile Documents/iCloud~run~surge/Documents/"
 surge_template = f"{surge_conf_path}Surge.conf"
