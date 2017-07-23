@@ -1,7 +1,7 @@
 # gfwlist2surge
 ## 按GFWList提供的白名单生成surge的配置文件
 ## 使用步骤
-1. 安装Python3.6或以上版本（建议使用pyenv不会影响系统中原有Python的使用）。
+1. 安装Python3.6或以上版本（建议使用pyenv不会影响系统中原有Python的使用）并安装requests包（pip install requests）。
 2. 用文本编辑器（vi，sublime text等）打开gfwlist2surge.py文件。
 3. 如果未使用iCloud同步Surge的配置文件，则修改surge_conf_path等号后面的路径为你自己实际存放配置文件的路径。
 4. 将surge_policy等号后面的部分修改为你自己的策略，一般为DIRECT或nProxy或noProxy。
